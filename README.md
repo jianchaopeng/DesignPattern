@@ -1,2 +1,3 @@
 # hello-world
-just test repository
+
+Hubot here, * like Nodejs and Coffeescript.
