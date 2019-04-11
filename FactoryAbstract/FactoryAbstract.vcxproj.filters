@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\Factory">
+      <UniqueIdentifier>{9f339db0-9914-435c-bdfd-ef2a1da91d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Product">
+      <UniqueIdentifier>{1b9f39b0-d34c-4b76-8577-9a935edabcd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FactoryAbstract.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Product\PCDotaGame.h">
+      <Filter>src\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Product\PCPubgGame.h">
+      <Filter>src\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Product\PhoneDotaGame.h">
+      <Filter>src\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Product\PhonePubgGame.h">
+      <Filter>src\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory\IFactory.h">
+      <Filter>src\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Product\IDotaGame.h">
+      <Filter>src\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Product\IPubgGame.h">
+      <Filter>src\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory\PCGameFactory.h">
+      <Filter>src\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory\PhoneGameFactory.h">
+      <Filter>src\Factory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
