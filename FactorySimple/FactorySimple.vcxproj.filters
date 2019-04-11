@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\Factory">
+      <UniqueIdentifier>{63f8b2ed-1cd3-440e-9b7c-7236941fea72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Product">
+      <UniqueIdentifier>{0767bb60-95ee-4568-a315-85d08ed723cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FactorySimple.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Product\IGame.h">
+      <Filter>src\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Product\GameWeb.hpp">
+      <Filter>src\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Product\GamePhone.hpp">
+      <Filter>src\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Product\GamePC.hpp">
+      <Filter>src\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory\GameFactory.hpp">
+      <Filter>src\Factory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
