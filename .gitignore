@@ -1,0 +1,7 @@
+
+*.ipch
+*.db
+.vs/DesignPatternProject/v15/.suo
+.vs/DesignPatternProject/v15/Browse.VC.opendb
+*.ipch
+*.log

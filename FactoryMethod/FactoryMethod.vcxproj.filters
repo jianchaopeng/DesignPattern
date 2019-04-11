@@ -5,10 +5,39 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="src\Product">
+      <UniqueIdentifier>{83a521bf-26e5-419e-bd3b-652822d88c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Factory">
+      <UniqueIdentifier>{5fd7144d-f440-4bf0-9b2e-7473980fb1c6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FactoryMethod.cpp">
       <Filter>src</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Product\IGame.h">
+      <Filter>src\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Product\GamePC.hpp">
+      <Filter>src\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Product\GamePhone.hpp">
+      <Filter>src\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Product\GameWeb.hpp">
+      <Filter>src\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory\IFactory.h">
+      <Filter>src\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory\GamePCFactory.h">
+      <Filter>src\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory\GamePhoneFactory.h">
+      <Filter>src\Factory</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

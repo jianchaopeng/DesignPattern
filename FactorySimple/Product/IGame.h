@@ -11,6 +11,16 @@ using namespace std;
 class IGame
 {
 public:
+	IGame()
+	{
+
+	}
+
+	virtual ~IGame()
+	{
+
+	}
+public:
 	virtual void run() = 0;
 };
 

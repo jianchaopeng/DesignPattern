@@ -154,6 +154,15 @@
   <ItemGroup>
     <ClCompile Include="FactoryMethod.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Factory\GamePCFactory.h" />
+    <ClInclude Include="Factory\GamePhoneFactory.h" />
+    <ClInclude Include="Factory\IFactory.h" />
+    <ClInclude Include="Product\GamePC.hpp" />
+    <ClInclude Include="Product\GamePhone.hpp" />
+    <ClInclude Include="Product\GameWeb.hpp" />
+    <ClInclude Include="Product\IGame.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
